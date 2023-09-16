@@ -1,18 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
 header {
     align-items: center;
-    width: 99%;
+    width: 100%;
     height: 15vh;
     background-color: rgba(255, 255, 74, 0.863);
     margin-bottom: 10px;
-    border-radius: 10px;
     border: 1px solid black;
-    margin-left: 2px;
-
 
 }
 
+
+
 .menu-content {
-    text-transform: uppercase;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -21,19 +21,23 @@ header {
 }
 
 .menu-content .list-itens {
+    margin-top: 13px;
     display: flex;
     list-style: none;
     gap: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .menu-content .list-itens a {
+
     text-decoration: none;
     color: #022973;
     padding: 0.5rem;
     transform: 2ms ease-in;
     position: relative;
     font-size: x-large;
-    font-family: 'Courier New', Courier, monospace
+
+
 }
 
 .menu-content .list-itens:hover {
@@ -58,22 +62,21 @@ header {
 }
 
 .texto-primario {
+    font-family: 'PT Sans Narrow', sans-serif;
     width: 750px;
     font-size: 30px;
     margin-top: 2.8rem;
     color: #022973;
-    margin-left: 29%;
+    margin-left: 35%;
 }
 
 span {
     color: rgb(95, 85, 85);
     font-size: 15px;
-    margin-left: 13%;
+    margin-left: 10%;
 }
 
-img {
-    border-radius: 10px;
-}
+
 
 .video {
     position: absolute;
@@ -82,12 +85,14 @@ img {
 
 
 .texto1 {
+    font-family: 'PT Sans Narrow', sans-serif;
     margin-top: 19px;
     text-align: center;
     color: #003147;
 }
 
 p {
+    font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 1px;
     margin-left: 4px;
     text-indent: 25px;
@@ -112,6 +117,7 @@ p {
 }
 
 .texto4 {
+    font-family: 'PT Sans Narrow', sans-serif;
     text-align: center;
     color: #003147;
 }
