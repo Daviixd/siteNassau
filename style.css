@@ -1,0 +1,117 @@
+header {
+    align-items: center;
+    width: 99%;
+    height: 15vh;
+    background-color: rgba(255, 255, 74, 0.863);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 2px;
+
+
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.0rem;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: #022973;
+    padding: 0.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.menu-content .list-itens:hover {
+    color: rgb(255, 255, 249);
+    border: none;
+}
+
+.menu-content .list-itens a:before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: -2px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(16, 16, 15);
+    transition: all 1.5s ease;
+    border: 2%solid;
+}
+
+.menu-content .list-itens a:hover::before {
+    width: 100%;
+}
+
+.texto-primario {
+    width: 750px;
+    font-size: 30px;
+    margin-top: 2.8rem;
+    color: #022973;
+    margin-left: 29%;
+}
+
+span {
+    color: rgb(95, 85, 85);
+    font-size: 15px;
+    margin-left: 13%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.video {
+    position: absolute;
+    margin-left: 5%;
+}
+
+
+.texto1 {
+    margin-top: 19px;
+    text-align: center;
+    color: #003147;
+}
+
+p {
+    letter-spacing: 1px;
+    margin-left: 4px;
+    text-indent: 25px;
+    font-style: oblique;
+    font-weight: 400;
+    text-align: center;
+}
+
+.historia {
+    margin-top: 510px;
+}
+
+.mapa {
+    width: 100%;
+    height: 450px;
+    display: flex;
+
+}
+
+.mb-3 {
+    margin-left: 25%;
+}
+
+.texto4 {
+    text-align: center;
+    color: #003147;
+}
